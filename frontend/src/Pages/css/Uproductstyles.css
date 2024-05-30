@@ -1,0 +1,119 @@
+@media screen and (max-width: 480px) {
+  .image {
+    padding-bottom: 50vw;
+    background-size: contain;
+  }
+  /* .parent {
+    margin-bottom: 100%;
+  } */
+  .parent .tractor {
+    margin-bottom: 30%;
+    width:40% ;
+    /* margin-left: 60px; */
+  }
+  .parent .cult{
+    margin-bottom: 30%;
+    width:40% ;
+  }
+  .parent .txt{
+    margin-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    padding-bottom: 50vw;
+    background-size: contain;
+  }
+  .cult {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .image {
+    padding-bottom: 50vw;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .image {
+    padding-bottom: 50vw;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .image {
+    padding-bottom: 50vw;
+    width: 100%;
+    background-size: cover;
+  }
+  .parent {
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  #tract {
+    width: 400px;
+  }
+  #cult {
+    width: 300px;
+  }
+  .cult {
+    margin-left: 20px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.image {
+  /* background-image: url("../../images/back.jpeg"); */
+ background-image: url('../../images/back.jpeg');
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center top;
+  height: 0;
+}
+.Pheader {
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.parent {
+  justify-content: stretch;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+.userdetails {
+  border: 1px ;
+  border-radius: 10px;
+  overflow: "hidden";
+  padding: 4px;
+  width: 30%;
+  background-color: "skyblue";
+  font-size: x-large;
+  color: azure;
+  margin: 40px;
+  margin-left: 5%;
+  /* background-color: #c48c53; */
+}
+.grids {
+  /* background-image: linear-gradient(rgba(33, 30, 30, 0.2), rgba(36, 32, 32, 0.2)), url('../../images/back3.jpg'); */
+ background-color: rgb(rgb(151, 219, 16), rgb(169, 255, 169), rgb(0, 255, 60));
+  /* height: 100vh; 
+  width: 100vw; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(10px); /* Add this line */
+}
+
+
+

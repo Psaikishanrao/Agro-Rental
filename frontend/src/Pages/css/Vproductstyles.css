@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../../images/farmer-with-tractor-on-the-field-at-sunrise-harvesting-concept-farmer-operating-a-tractor-working-in-the-field-in-the-morning-ai-generated-free-photo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+}
+
+.details {
+  padding: 5px;
+  width: 100%; 
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; 
+}
+
+.icons .img { 
+  border: 1px solid #ccc; /* Added border color */
+  border-radius: 20px;
+  margin: 0 10px; /* Added horizontal spacing */
+  width: 80px;
+  cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 480px) {
+  .back {
+    padding-bottom: 50vw;
+  }
+  .parent {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .back {
+    padding-bottom: 50vw;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .back {
+    padding-bottom: 50vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .back {
+    padding-bottom: 50vw;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .back {
+    padding-bottom: 50vw;
+  }
+  .details {
+    width: 40%; 
+  }
+  .icons {
+    margin-top: 60px;
+  }
+}

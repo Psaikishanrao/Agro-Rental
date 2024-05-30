@@ -1,0 +1,33 @@
+@media screen and (max-width: 480px) {
+  .main {
+    padding-bottom: 50vw;
+    width: 100%;
+    background-size: cover;
+  }
+}
+
+
+@media screen and (max-width: 2000px) {
+    .main {
+      padding-bottom: 50vw;
+      width: 100%;
+      background-size: cover;
+    }
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+.main{
+    background-image: url("../../images/farmerlogin.jpg");
+    background-repeat: no-repeat;
+  width: 100%;
+  background-position: center top;
+  height: 0;
+}
+.box{
+    margin-top: 5%;
+    width: 45%;
+    height: 60%;
+}
